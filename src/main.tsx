@@ -90,7 +90,7 @@ const flowerRootCoordinates = [
   [1.5, -7, 0.5],
   [1.5, -8, 0.5],
 ];
-
+console.log('initial finished');
 two.bind('update', function () {
   const rotation = (Date.now() / 1000) % 360;
   items.forEach((item) => item.forEach((p) => p.remove()));
